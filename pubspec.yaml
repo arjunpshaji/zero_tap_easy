@@ -1,0 +1,37 @@
+name: zero_tap_easy
+description: >-
+  Zero-tap sign-in restoration for Android. Silently recreate a signed-in
+  session on a user's new device using Credential Manager Restore Credentials.
+version: 0.1.0
+homepage: https://github.com/arjunp/zero_tap_easy
+repository: https://github.com/arjunp/zero_tap_easy
+issue_tracker: https://github.com/arjunp/zero_tap_easy/issues
+documentation: https://pub.dev/documentation/zero_tap_easy/latest/
+
+topics:
+  - authentication
+  - android
+  - credentials
+  - passkeys
+  - sign-in
+
+environment:
+  sdk: ^3.5.0
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.zerotap.zero_tap_easy
+        pluginClass: ZeroTapEasyPlugin

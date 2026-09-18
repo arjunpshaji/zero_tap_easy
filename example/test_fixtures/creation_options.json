@@ -1,0 +1,30 @@
+{
+  "challenge": "xWiqF-ZQ8KRcFLeRBGnFSlGFiW1U_3r_iojyiqlqJ-w",
+  "rp": {
+    "id": "example.com",
+    "name": "zero_tap_easy test"
+  },
+  "user": {
+    "id": "dGVzdC11c2VyLTAwMDE",
+    "name": "tester@example.com",
+    "displayName": "Tester"
+  },
+  "pubKeyCredParams": [
+    {
+      "type": "public-key",
+      "alg": -7
+    },
+    {
+      "type": "public-key",
+      "alg": -257
+    }
+  ],
+  "timeout": 60000,
+  "attestation": "none",
+  "authenticatorSelection": {
+    "authenticatorAttachment": "platform",
+    "residentKey": "required",
+    "requireResidentKey": true,
+    "userVerification": "required"
+  }
+}

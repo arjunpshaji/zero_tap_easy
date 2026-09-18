@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+      Package visibility for the Play services version check in
+      RestoreCredentialHandler.gmsVersion(). Required on API 30 and above.
+
+      This manifest deliberately declares nothing else. In particular it must
+      never set android:allowBackup - Google's guidance is explicit that a
+      library must not change the host app's backup setting.
+    -->
+    <queries>
+        <package android:name="com.google.android.gms" />
+    </queries>
+</manifest>

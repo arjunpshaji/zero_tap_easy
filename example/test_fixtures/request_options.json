@@ -1,0 +1,7 @@
+{
+  "challenge": "UMZ-fPnucNcT2IgAeGE4HFTgl1nxBwQENJBHImJi1BY",
+  "rpId": "example.com",
+  "allowCredentials": [],
+  "timeout": 60000,
+  "userVerification": "required"
+}
