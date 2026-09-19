@@ -2,10 +2,10 @@ name: zero_tap_easy
 description: >-
   Zero-tap sign-in restoration for Android. Silently recreate a signed-in
   session on a user's new device using Credential Manager Restore Credentials.
-version: 0.1.0
-homepage: https://github.com/arjunp/zero_tap_easy
-repository: https://github.com/arjunp/zero_tap_easy
-issue_tracker: https://github.com/arjunp/zero_tap_easy/issues
+version: 0.1.1
+homepage: https://github.com/arjunpshaji/zero_tap_easy
+repository: https://github.com/arjunpshaji/zero_tap_easy
+issue_tracker: https://github.com/arjunpshaji/zero_tap_easy/issues
 documentation: https://pub.dev/documentation/zero_tap_easy/latest/
 
 topics:

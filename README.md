@@ -428,7 +428,7 @@ this.
 ### Contributing
 
 Contributions are welcome! Please file issues and pull requests on the
-[GitHub repository](https://github.com/arjunp/zero_tap_easy).
+[GitHub repository](https://github.com/arjunpshaji/zero_tap_easy).
 
 ### License
 
